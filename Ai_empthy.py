@@ -9,7 +9,7 @@ from langchain.embeddings.huggingface import HuggingFaceInstructEmbeddings
 from langchain_groq import ChatGroq
 import os
 # Load environment variables (e.g., API keys for OpenAI)
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
 
 def get_vectorstore(user_data):
     """Generate FAISS vectorstore with HuggingFace embeddings."""
