@@ -116,7 +116,7 @@ def main():
         st.success("Your AI coach is ready! Start chatting.")
 
     # Main content: Chat interface
-    user_question = st.text_input("Ask a question:")
+    user_question = st.chat_input("Ask a question:")
     if user_question:
         handle_userinput(user_question)
 
