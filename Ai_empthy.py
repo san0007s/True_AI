@@ -78,7 +78,7 @@ def main():
     st.set_page_config(page_title="Chat with AI empathy: Your Personal AI Coach",
                        page_icon="🤗")
     st.write(css, unsafe_allow_html=True)
-    st.title("AI Empathy: Your Personal AI Coach")
+    st.title("AI Empathy: Personal AI Coach 🤖")
 
     # Initialize session state variables
     if "conversation" not in st.session_state:
@@ -86,10 +86,38 @@ def main():
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = None
 
+    styl = f"""
+    <style>
+        .stTextInput {{
+          position: fixed;
+          bottom: 3rem;
+          transform: translateX(-50%) !important;
+          width: 50% !important;
+          padding: 14px !important;
+          font-size: 16px !important;
+          border: 2px solid #ccc !important;
+          border-radius: 25px !important;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+          # z-index: 9999 !important;
+          outline: none !important;
+          transition: left 0.3s ease, width 0.3s ease !important;
+          
+            /* Centering without left or right */
+          margin-left: 300px !important;  /* Pushes the element to the right */
+        
+        }}
+        .stTextInput:focus {{
+            border-color: #0084ff !important;
+            box-shadow: 0px 0px 8px rgba(0, 132, 255, 0.6) !important;
+        }}
+    </style>
+    """
+    st.markdown(styl, unsafe_allow_html=True)
+
     # Sidebar for user inputs
     user_data = {}
     st.sidebar.header("Personal Information")
-    user_data["name"] = st.sidebar.text_input("What is your name?")
+    user_data["name"] = st.sidebar.text_area("What is your name?", height=68)
     user_data["age"] = st.sidebar.number_input("How old are you?", min_value=0, max_value=120)
 
     user_data["gender"] = st.sidebar.radio("What is your gender?", ["Male", "Female", "Other"])
