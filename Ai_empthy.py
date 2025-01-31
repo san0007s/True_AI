@@ -103,8 +103,7 @@ def main():
           transition: left 0.3s ease, width 0.3s ease !important;
           background-color: #333 !important; /* Dark background */
           
-            /* Centering without left or right */
-          margin-left: 320px !important;  /* Pushes the element to the right */
+          margin-left: 320px !important;
         
         }}
         .stTextInput:focus {{
