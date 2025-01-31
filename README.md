@@ -72,7 +72,7 @@ streamlit run app.py
 
 ```
 ai-empathy-personal-ai-coach/
-├── app.py                    # Main application script
+├── Ai_empthy.py                    # Main application script
 ├── htmlTemplates.py          # HTML/CSS templates for chat messages
 ├── requirements.txt          # List of dependencies
 ├── .env                      # Environment variables file (not committed)
