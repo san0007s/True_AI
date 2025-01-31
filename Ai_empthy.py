@@ -98,7 +98,7 @@ def main():
           border: 2px solid #ccc !important;
           border-radius: 25px !important;
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
-          # z-index: 9999 !important;
+          z-index: 9999 !important;
           outline: none !important;
           transition: left 0.3s ease, width 0.3s ease !important;
           
