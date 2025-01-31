@@ -157,5 +157,4 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 For questions or support, please open an issue in the repository or contact [sandesh0007s@gmail.com](mailto:sandesh0007s@gmail.com).
 
-```
 
