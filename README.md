@@ -155,10 +155,7 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ## Contact
 
-For questions or support, please open an issue in the repository or contact [your-email@example.com](mailto:your-email@example.com).
+For questions or support, please open an issue in the repository or contact [sandesh0007s@gmail.com](mailto:sandesh0007s@gmail.com).
 
 ```
 
----
-
-Feel free to adjust any sections (URLs, contact information, or other details) as needed. This `README.md` provides a complete overview of your project, instructions for installation and usage, and additional information about customization and contribution.
