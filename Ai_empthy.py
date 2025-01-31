@@ -101,7 +101,7 @@ def main():
           z-index: 9999 !important;
           outline: none !important;
           transition: left 0.3s ease, width 0.3s ease !important;
-          background-color: #f0f0f0 !important; 
+          background-color: #333 !important; /* Dark background */
           
             /* Centering without left or right */
           margin-left: 320px !important;  /* Pushes the element to the right */
