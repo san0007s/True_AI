@@ -103,7 +103,7 @@ def main():
           transition: left 0.3s ease, width 0.3s ease !important;
           background-color: #333 !important; /* Dark background */
           
-          margin-left: 320px !important;
+          margin-left: 340px !important;
         
         }}
         .stTextInput:focus {{
