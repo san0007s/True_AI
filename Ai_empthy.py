@@ -26,7 +26,7 @@ def get_conversation_chain(vectorstore):
     """Create a ConversationalRetrievalChain with memory, vectorstore, and custom prompt."""
     # llm = ChatOpenAI()
     llm = ChatGroq(api_key=GROQ_API_KEY, temperature=0,
-                   model_name="mistral-7b")
+                   model_name="llama3-8b-8192")
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
 
     # Define a custom prompt for the AI coach
